@@ -1,0 +1,29 @@
+
+<table class="styled-table">
+    <thead>
+        <tr>
+           <th>
+            Id
+           </th> 
+           <th>
+           User Id
+           </th>
+           <th>
+            Title
+           </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let i of myData">
+            <td>
+                {{i.id}}
+            </td>
+            <td>
+                {{i.userId}}
+            </td>
+            <td>
+                {{i.title}}
+            </td>
+        </tr>
+    </tbody>
+</table>

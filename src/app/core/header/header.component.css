@@ -1,0 +1,31 @@
+.fixed-header{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    top:0;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+} 
+.container{
+    width: 80%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+
+a.large {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+a.small {
+    font-size: 15px;
+}
+img.twitter {
+    position: absolute;top: 23px;
+    right: 30px;
+}
